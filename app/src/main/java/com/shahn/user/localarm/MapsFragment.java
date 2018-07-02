@@ -164,7 +164,7 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback,
 
         LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
         MarkerOptions markerOptions = new MarkerOptions();
-        
+
     }
 
     @Override

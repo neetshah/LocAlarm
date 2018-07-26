@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCxiJC3jyO6H7e7N8I81MrF3yS7CZN1cmM" />
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -19,6 +23,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".PlacesActivity"
+            android:label="@string/title_activity_places"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
